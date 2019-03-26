@@ -1,0 +1,9 @@
+platformName: Android
+platformVersion: 4.4.2
+deviceName: 127.0.0.1:62001
+app: D:\testfiles\HTSC\app\zlqqt_appium_1.0.1.apk
+noReset: False
+appPackage: com.lphtsccft.zlqqt2
+appActivity: com.lphtsccft.zlg.startup.ZlgGuidePageActivity
+ip: 127.0.0.1
+port: 4723

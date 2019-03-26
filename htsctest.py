@@ -4,16 +4,26 @@ from time import sleep
 
 from appium import webdriver
 from selenium.common.exceptions import NoSuchElementException
+import yaml
+import logging
 
+from selenium.webdriver.support.wait import WebDriverWait
+
+file = open('./config/desired_caps.yaml','r')
+data = yaml.load(file)
+
+logging.basicConfig(level=logging.INFO,filename='runlog.log',format='%(asctime)s %(filename)s [line:%(lineno)d] %(levelname)s %(message)s')
 desired_caps = {}
-desired_caps['platformName'] = 'Android'
-desired_caps['platformVersion'] = '4.4.2'
-desired_caps['deviceName'] = '127.0.0.1:62001'
-desired_caps['appPackage'] = 'com.lphtsccft.zlqqt2'
-desired_caps['appActivity'] = 'com.lphtsccft.zlg.startup.ZlgGuidePageActivity'
-
-driver = webdriver.Remote('http://localhost:4723/wd/hub', desired_caps)
-
+desired_caps['platformName'] = data['platformName']
+desired_caps['platformVersion'] = data['platformVersion']
+desired_caps['deviceName'] = data['deviceName']
+desired_caps['appPackage'] = data['appPackage']
+desired_caps['appActivity'] = data['appActivity']
+desired_caps['app'] = data['app']
+desired_caps['noReset'] = data['noReset']
+logging.info('-------------------------开始测试-------------------------')
+driver = webdriver.Remote('http://'+str(data['ip'])+':'+str(data['port'])+'/wd/hub', desired_caps)
+logging.info('点击允许按钮...')
 try:
     permit_button = driver.find_element_by_id('com.android.packageinstaller:id/permission_allow_button')
 
@@ -22,6 +32,7 @@ except NoSuchElementException:
 else:
     permit_button.click()
 
+logging.info('点击确定按钮进入app...')
 try:
     confirm_button = driver.find_element_by_id('com.lphtsccft.zlqqt2:id/guide_page_tv_confirm')
 except NoSuchElementException:
@@ -35,7 +46,7 @@ def get_size():
     return x,y
 
 l = get_size()
-print(l)
+logging.info(l)
 
 def swiptleft():
     l = get_size()
@@ -45,6 +56,8 @@ def swiptleft():
     driver.swipe(x1,y1,x2,y1,1000)
 
 sleep(1)
+
+logging.info('开始滑动...')
 for i in range(3):
     swiptleft()
     sleep(0.5)
@@ -67,6 +80,7 @@ def touch_tap(x, y, duration=100):  # 点击坐标  ,x1,x2,y1,y2,duration
     y1 = int(b)
     driver.tap([(x1, y1), (x1, y1)], duration)
 
+driver.implicitly_wait(3)
 touch_tap(l[0]*0.5,l[1]*0.9375)
 
 sleep(1)
@@ -74,49 +88,52 @@ sleep(1)
 try:
     close_button = driver.find_element_by_id('com.lphtsccft.zlqqt2:id/ipo_dialog_close')
 except NoSuchElementException:
-    print("no close_button")
+    logging.info("no close_button")
 else:
     close_button.click()
-sleep(1)
-el1 = driver.find_element_by_id("com.lphtsccft.zlqqt2:id/main_market")
-el1.click()
-el2 = driver.find_element_by_id("com.lphtsccft.zlqqt2:id/title_bar_right")
-el2.click()
-el3 = driver.find_element_by_id("com.lphtsccft.zlqqt2:id/title_bar_search")
-el3.send_keys(".zztzt")
-el4 = driver.find_element_by_id("com.lphtsccft.zlqqt2:id/cb_server_kind_trading")
-el4.click()
-el5 = driver.find_element_by_id("com.lphtsccft.zlqqt2:id/cb_server_kind_info")
-el5.click()
-el6 = driver.find_element_by_id("com.lphtsccft.zlqqt2:id/et_new_server_address")
-el6.click()
-el6.send_keys("122.96.150.162")
-el7 = driver.find_element_by_id("com.lphtsccft.zlqqt2:id/et_new_server_port")
-el7.click()
-el7.send_keys("17100")
-el8 = driver.find_element_by_id("com.lphtsccft.zlqqt2:id/btn_add_new_server_address_port")
-el8.click()
-el9 = driver.find_element_by_id("com.lphtsccft.zlqqt2:id/cb_server_kind_market")
-el9.click()
-el10 = driver.find_element_by_id("com.lphtsccft.zlqqt2:id/cb_server_kind_trading")
-el10.click()
-el11 = driver.find_element_by_id("com.lphtsccft.zlqqt2:id/et_new_server_port")
-el11.clear()
-el11.click()
-el11.send_keys("17300")
-el12 = driver.find_element_by_id("com.lphtsccft.zlqqt2:id/btn_add_new_server_address_port")
-el12.click()
-el13 = driver.find_element_by_id("com.lphtsccft.zlqqt2:id/cb_server_kind_trading")
-el13.click()
-el14 = driver.find_element_by_id("com.lphtsccft.zlqqt2:id/cb_server_kind_info")
-el14.click()
-el15 = driver.find_element_by_id("com.lphtsccft.zlqqt2:id/et_new_server_port")
-el15.clear()
-el15.click()
-el15.send_keys("17200")
-el16 = driver.find_element_by_id("com.lphtsccft.zlqqt2:id/btn_add_new_server_address_port")
-el16.click()
-el17 = driver.find_element_by_id("com.lphtsccft.zlqqt2:id/title_bar_left")
-el17.click()
-el18 = driver.find_element_by_id("com.lphtsccft.zlqqt2:id/title_bar_left")
-el18.click()
+
+logging.info('点击市场...')
+WebDriverWait(driver,5).until(lambda x:x.find_element_by_id('com.lphtsccft.zlqqt2:id/main_market'))
+market = driver.find_element_by_id("com.lphtsccft.zlqqt2:id/main_market").click()
+
+logging.info('点击搜索...')
+WebDriverWait(driver,5).until(lambda x:x.find_element_by_id('com.lphtsccft.zlqqt2:id/title_bar_right'))
+search = driver.find_element_by_id("com.lphtsccft.zlqqt2:id/title_bar_right").click()
+
+logging.info('点击搜索框,输入????')
+WebDriverWait(driver,3).until(lambda x:x.find_element_by_id('com.lphtsccft.zlqqt2:id/title_bar_search'))
+send_keys = driver.find_element_by_id("com.lphtsccft.zlqqt2:id/title_bar_search").send_keys("?????")
+
+logging.info('取消勾选交易、资讯按钮...')
+server_kind_trading = driver.find_element_by_id("com.lphtsccft.zlqqt2:id/cb_server_kind_trading").click()
+server_kind_info = driver.find_element_by_id("com.lphtsccft.zlqqt2:id/cb_server_kind_info").click()
+
+logging.info('添加行情ip：port')
+new_server_ip = driver.find_element_by_id("com.lphtsccft.zlqqt2:id/et_new_server_address").send_keys("122")
+port = driver.find_element_by_id("com.lphtsccft.zlqqt2:id/et_new_server_port")
+port.send_keys("hkport")
+add_ip_port = driver.find_element_by_id("com.lphtsccft.zlqqt2:id/btn_add_new_server_address_port")
+add_ip_port.click()
+
+logging.info('取消勾选行情按钮，勾选交易按钮...')
+el9 = driver.find_element_by_id("com.lphtsccft.zlqqt2:id/cb_server_kind_market").click()
+el10 = driver.find_element_by_id("com.lphtsccft.zlqqt2:id/cb_server_kind_trading").click()
+
+logging.info('清除行情port，添加交易port...')
+port.clear()
+port.send_keys("tradeport")
+add_ip_port.click()
+
+logging.info('取消勾选行情按钮，勾选交易按钮...')
+el13 = driver.find_element_by_id("com.lphtsccft.zlqqt2:id/cb_server_kind_trading").click()
+el14 = driver.find_element_by_id("com.lphtsccft.zlqqt2:id/cb_server_kind_info").click()
+
+logging.info('清除交易port，添加资讯port...')
+port.clear()
+port.send_keys("mesport")
+add_ip_port.click()
+
+el17 = driver.find_element_by_id("com.lphtsccft.zlqqt2:id/title_bar_left").click()
+el18 = driver.find_element_by_id("com.lphtsccft.zlqqt2:id/title_bar_left").click()
+
+logging.info('测试结束...')
