@@ -2,17 +2,23 @@
 from datetime import time
 from time import sleep
 
+import yaml
 from appium import webdriver
 from selenium.common.exceptions import NoSuchElementException
-import yaml
+
 import logging
+import logging.config
 
 from selenium.webdriver.support.wait import WebDriverWait
 
 file = open('./config/desired_caps.yaml','r')
 data = yaml.load(file)
 
-logging.basicConfig(level=logging.INFO,filename='runlog.log',format='%(asctime)s %(filename)s [line:%(lineno)d] %(levelname)s %(message)s')
+# logging.basicConfig(level=logging.INFO,filename='runlog.log',format='%(asctime)s %(filename)s [line:%(lineno)d] %(levelname)s %(message)s')
+CON_LOG='./config/log.conf'
+logging.config.fileConfig(CON_LOG)
+logging=logging.getLogger()
+
 desired_caps = {}
 desired_caps['platformName'] = data['platformName']
 desired_caps['platformVersion'] = data['platformVersion']
@@ -92,7 +98,7 @@ except NoSuchElementException:
 else:
     close_button.click()
 
-logging.info('点击市场...')
+logging.info('点击行情...')
 WebDriverWait(driver,5).until(lambda x:x.find_element_by_id('com.lphtsccft.zlqqt2:id/main_market'))
 market = driver.find_element_by_id("com.lphtsccft.zlqqt2:id/main_market").click()
 
