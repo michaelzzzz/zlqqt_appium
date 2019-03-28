@@ -27,7 +27,7 @@ def zlqqt_desired():
     desired_caps['unicodeKeyboard'] = data['unicodeKeyboard']
     desired_caps['resetKeyboard'] = data['resetKeyboard']
     driver = webdriver.Remote('http://'+str(data['ip'])+':'+str(data['port'])+'/wd/hub', desired_caps)
-    logging.info('启动app，开始测试...')
+    logging.info('===================启动app，开始测试=======================')
     # driver.implicitly_wait(8)
     return driver
 

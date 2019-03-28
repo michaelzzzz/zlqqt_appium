@@ -8,6 +8,9 @@ class ZlqqtBaseView(object):
     def find_element(self,*loc):
         return self.driver.find_element(*loc)
 
+    def find_elements(self,*loc):
+        return self.driver.find_elements(*loc)
+
     def get_size(self):
         '''
         获取屏幕分辨率

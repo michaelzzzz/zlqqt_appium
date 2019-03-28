@@ -42,9 +42,9 @@ class Common(ZlqqtBaseView):
             WebDriverWait(self.driver, 5).until(lambda x: x.find_element(*self.confirmBtn))
             element.click()
 
-    def swiptleft(self):
+    def swiptleft(self,num=1):
         logging.info('开始滑动')
-        for i in range(3):
+        for i in range(num):
             ZlqqtBaseView(self.driver).swipt_left()
             sleep(0.5)
 
