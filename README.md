@@ -1,2 +1,0 @@
-# appium
-appium框架
