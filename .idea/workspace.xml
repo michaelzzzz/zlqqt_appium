@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3b16a609-d0f6-4b44-a423-d102ae0535ca" name="Default Changelist" comment="add htsctest">
-      <change beforePath="$PROJECT_DIR$/.idea/pythonnotes.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/pythonnotes.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/desired_caps.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/desired_caps.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/htsctest.py" beforeDir="false" afterPath="$PROJECT_DIR$/htsctest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/runlog.log" beforeDir="false" afterPath="$PROJECT_DIR$/runlog.log" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -134,7 +130,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/zlqqt_desired_caps.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="472">
+            <state relative-caret-position="187">
               <caret line="29" column="33" lean-forward="true" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
               <folding>
                 <element signature="e#14#42#0" expanded="true" />
@@ -143,11 +139,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/runlog.log">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="287">
-              <caret line="41" column="67" lean-forward="true" selection-start-line="41" selection-start-column="67" selection-end-line="41" selection-end-column="67" />
+            <state relative-caret-position="684">
+              <caret line="36" column="53" selection-start-line="36" selection-start-column="53" selection-end-line="36" selection-end-column="53" />
             </state>
           </provider>
         </entry>
@@ -167,7 +163,7 @@
             <state relative-caret-position="-38">
               <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
               <folding>
-                <marker date="1553668917051" expanded="true" signature="53:58" ph="..." />
+                <marker date="1553681332154" expanded="true" signature="53:58" ph="..." />
               </folding>
             </state>
           </provider>
@@ -185,16 +181,16 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/zlqqtSetServer.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="187">
               <caret line="22" column="24" lean-forward="true" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
               <folding>
                 <element signature="e#15#37#0" expanded="true" />
-                <marker date="1553680319085" expanded="true" signature="259:260" ph="..." />
-                <marker date="1553680319085" expanded="true" signature="1264:1338" ph="..." />
-                <marker date="1553680319085" expanded="true" signature="1361:3662" ph="..." />
+                <marker date="1553681332193" expanded="true" signature="259:260" ph="..." />
+                <marker date="1553681332193" expanded="true" signature="1264:1338" ph="..." />
+                <marker date="1553681332193" expanded="true" signature="1361:3662" ph="..." />
               </folding>
             </state>
           </provider>
@@ -632,34 +628,7 @@
         <state relative-caret-position="-38">
           <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
           <folding>
-            <marker date="1553668917051" expanded="true" signature="53:58" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/runlog.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="41" column="67" lean-forward="true" selection-start-line="41" selection-start-column="67" selection-end-line="41" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zlqqt_desired_caps.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="472">
-          <caret line="29" column="33" lean-forward="true" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
-          <folding>
-            <element signature="e#14#42#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zlqqt_common.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" column="32" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
-          <folding>
-            <element signature="e#0#22#0" expanded="true" />
+            <marker date="1553681332154" expanded="true" signature="53:58" ph="..." />
           </folding>
         </state>
       </provider>
@@ -697,10 +666,37 @@
           <caret line="22" column="24" lean-forward="true" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
           <folding>
             <element signature="e#15#37#0" expanded="true" />
-            <marker date="1553680319085" expanded="true" signature="259:260" ph="..." />
-            <marker date="1553680319085" expanded="true" signature="1264:1338" ph="..." />
-            <marker date="1553680319085" expanded="true" signature="1361:3662" ph="..." />
+            <marker date="1553681332193" expanded="true" signature="259:260" ph="..." />
+            <marker date="1553681332193" expanded="true" signature="1264:1338" ph="..." />
+            <marker date="1553681332193" expanded="true" signature="1361:3662" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zlqqt_common.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="32" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zlqqt_desired_caps.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="29" column="33" lean-forward="true" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
+          <folding>
+            <element signature="e#14#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/runlog.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="684">
+          <caret line="36" column="53" selection-start-line="36" selection-start-column="53" selection-end-line="36" selection-end-column="53" />
         </state>
       </provider>
     </entry>
