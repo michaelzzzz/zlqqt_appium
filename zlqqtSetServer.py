@@ -184,12 +184,7 @@ class zlqqtSetServer(Common):
 if __name__ == '__main__':
         driver = zlqqt_desired()
         com = Common(driver)
-        com.check_permitBtn()
-        com.check_confirmBtn()
-        sleep(1)
-        com.swiptleft()
-        sleep(1)
-        com.experienceBtn()
+        com.start_page()
 
         zl = zlqqtSetServer(driver)
         zl.click_market()

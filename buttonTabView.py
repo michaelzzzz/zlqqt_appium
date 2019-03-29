@@ -14,14 +14,6 @@ class buttonTabView(Common):
     main_trade = (By.ID, 'com.lphtsccft.zlqqt2:id/main_trade')
     main_account = (By.ID, 'com.lphtsccft.zlqqt2:id/main_account')
 
-    def common_openation(self):
-        self.check_permitBtn()
-        self.check_confirmBtn()
-        sleep(1)
-        self.swiptleft(3)
-        sleep(1)
-        self.experienceBtn()
-
     def click_main_indexpage(self):
         logging.info('点击首页...')
         WebDriverWait(self.driver, 5).until(lambda x: x.find_element(*self.main_indexpage))

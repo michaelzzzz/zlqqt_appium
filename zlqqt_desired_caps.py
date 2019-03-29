@@ -14,8 +14,8 @@ def zlqqt_desired():
     app启动配置信息
     :return: driver
     '''
-    file = open('./config/desired_caps.yaml','r')
-    data = yaml.load(file)
+    with open('./config/desired_caps.yaml','r') as file:
+        data = yaml.load(file)
     desired_caps = {}
     desired_caps['platformName'] = data['platformName']
     desired_caps['platformVersion'] = data['platformVersion']
