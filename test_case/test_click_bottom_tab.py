@@ -1,6 +1,7 @@
 # coding=utf-8
 import unittest
 
+from MarketMainPageView import MartetMainPage
 from buttonTabView import buttonTabView
 from myunit import StartEnd
 from zlqqt_common import Common

@@ -2,13 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3b16a609-d0f6-4b44-a423-d102ae0535ca" name="Default Changelist" comment="add htsctest">
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ZlqqtBaseView.py" beforeDir="false" afterPath="$PROJECT_DIR$/ZlqqtBaseView.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/buttonTabView.py" beforeDir="false" afterPath="$PROJECT_DIR$/buttonTabView.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/2019-03-29 15_06_37test_report.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run.py" beforeDir="false" afterPath="$PROJECT_DIR$/run.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/runlog.log" beforeDir="false" afterPath="$PROJECT_DIR$/runlog.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_case.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_case/click_bottom_tab.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zlqqtSetServer.py" beforeDir="false" afterPath="$PROJECT_DIR$/zlqqtSetServer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_case/click_bottom_tab.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_case/test_click_bottom_tab.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/zlqqt_common.py" beforeDir="false" afterPath="$PROJECT_DIR$/zlqqt_common.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/zlqqt_desired_caps.py" beforeDir="false" afterPath="$PROJECT_DIR$/zlqqt_desired_caps.py" afterDir="false" />
     </list>
@@ -28,8 +27,11 @@
     <SUITE FILE_PATH="coverage/zlqqt_appium$zlqqt_common.coverage" NAME="zlqqt_common Coverage Results" MODIFIED="1553838748140" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/zlqqt_appium$zlqqtSetServer.coverage" NAME="zlqqtSetServer Coverage Results" MODIFIED="1553743613532" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pythonnotes$ApkBase.coverage" NAME="ApkBase Coverage Results" MODIFIED="1552391993342" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/zlqqt_appium$run.coverage" NAME="run Coverage Results" MODIFIED="1553843197255" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/zlqqt_appium$Unittests_for_test_click_bottom_tab_TestCase_test_click_bottom_tab.coverage" NAME="Unittests for test_click_bottom_tab.TestCase.test_click_bottom_tab Coverage Results" MODIFIED="1554111577459" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
+    <SUITE FILE_PATH="coverage/zlqqt_appium$run.coverage" NAME="run Coverage Results" MODIFIED="1554113044001" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/zlqqt_appium$Unittests_in_test_click_bottom_tab_py.coverage" NAME="Unittests in test_click_bottom_tab.py Coverage Results" MODIFIED="1554111367410" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/zlqqt$h5.coverage" NAME="h5 Coverage Results" MODIFIED="1553527810067" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/zlqqt_appium$Unittests_for_test_hang_heng_index_skip_TestCase_test_hang_heng_index_skip.coverage" NAME="Unittests for test_hang_heng_index_skip.TestCase.test_hang_heng_index_skip Coverage Results" MODIFIED="1554111340969" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
     <SUITE FILE_PATH="coverage/zlqqt_appium$h5.coverage" NAME="h5 Coverage Results" MODIFIED="1553586638012" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/zlqqt_appium$Unittests_for_test_case_TestCase_test_click_bottom_tab_trade.coverage" NAME="Unittests for test_case.TestCase.test_click_bottom_tab_trade Coverage Results" MODIFIED="1553761709790" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/zlqqt_appium$buttonTabView.coverage" NAME="buttonTabView Coverage Results" MODIFIED="1553759809756" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -73,46 +75,47 @@
     <session id="1636720518">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
+          <entry key="project.closed" value="7" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.18" value="1" />
           <entry key="project.open.time.26" value="1" />
+          <entry key="project.open.time.28" value="2" />
           <entry key="project.open.time.30" value="1" />
           <entry key="project.open.time.46" value="1" />
-          <entry key="project.opened" value="6" />
+          <entry key="project.opened" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dummy" value="83" />
-          <entry key="log" value="2" />
-          <entry key="py" value="7344" />
+          <entry key="dummy" value="100" />
+          <entry key="log" value="3" />
+          <entry key="py" value="8336" />
           <entry key="yaml" value="174" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="85" />
-          <entry key="Python" value="7344" />
+          <entry key="PLAIN_TEXT" value="103" />
+          <entry key="Python" value="8336" />
           <entry key="YAML" value="174" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="conf" value="2" />
+          <entry key="conf" value="4" />
           <entry key="html" value="1" />
-          <entry key="log" value="2" />
-          <entry key="py" value="28" />
-          <entry key="yaml" value="3" />
+          <entry key="log" value="5" />
+          <entry key="py" value="45" />
+          <entry key="yaml" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="HTML" value="1" />
-          <entry key="PLAIN_TEXT" value="4" />
-          <entry key="Python" value="28" />
-          <entry key="YAML" value="3" />
+          <entry key="PLAIN_TEXT" value="9" />
+          <entry key="Python" value="45" />
+          <entry key="YAML" value="5" />
         </counts>
       </usages-collector>
     </session>
@@ -120,9 +123,61 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/zlqqtSetServer.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="48" column="51" selection-start-line="48" selection-start-column="44" selection-end-line="48" selection-end-column="51" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/zlqqt_common.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="113" column="49" lean-forward="true" selection-start-line="112" selection-start-column="8" selection-end-line="113" selection-end-column="49" />
+              <folding>
+                <element signature="e#0#22#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ZlqqtBaseView.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-line="1" />
+              <folding>
+                <marker date="1553852756093" expanded="true" signature="53:58" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MarketMainPageView.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-361">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+              <folding>
+                <element signature="e#15#70#0" expanded="true" />
+                <marker date="1554112591609" expanded="true" signature="313:318" ph="..." />
+                <marker date="1554112591609" expanded="true" signature="1327:1609" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/runlog.log">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/myunit.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="111">
+            <state relative-caret-position="114">
               <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
@@ -132,10 +187,35 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test_case/test_click_bottom_tab.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="244">
+              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+              <folding>
+                <element signature="e#15#30#0" expanded="true" />
+                <marker date="1554113029677" expanded="true" signature="244:249" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test_case/test_hang_heng_index_skip.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+              <folding>
+                <element signature="e#15#30#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/run.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="282">
-              <caret line="23" column="24" lean-forward="true" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
+            <state relative-caret-position="92">
+              <caret line="13" column="73" selection-start-line="13" selection-start-column="73" selection-end-line="13" selection-end-column="73" />
               <folding>
                 <element signature="e#31#45#0" expanded="true" />
               </folding>
@@ -144,94 +224,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/h5.py">
+        <entry file="file://$PROJECT_DIR$/htsctest.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-136">
-              <caret line="13" column="25" lean-forward="true" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ApkBase.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="909">
-              <caret line="51" column="16" lean-forward="true" selection-start-line="51" selection-start-column="16" selection-end-line="51" selection-end-column="16" />
-              <folding>
-                <element signature="e#40#49#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test_case/click_bottom_tab.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-              <folding>
-                <element signature="e#15#30#0" expanded="true" />
-                <marker date="1553843092974" expanded="true" signature="198:203" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ZlqqtBaseView.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-              <folding>
-                <marker date="1553825801135" expanded="true" signature="53:58" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/zlqqtSetServer.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2565">
-              <caret line="186" column="24" selection-start-line="186" selection-start-column="24" selection-end-line="186" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/zlqqt_common.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="94">
-              <caret line="118" column="22" lean-forward="true" selection-start-line="118" selection-start-column="22" selection-end-line="118" selection-end-column="22" />
-              <folding>
-                <element signature="e#0#22#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BSTestRunner.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="123" column="36" lean-forward="true" selection-start-line="123" selection-start-column="36" selection-end-line="123" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/buttonTabView.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
-              <folding>
-                <element signature="e#15#37#0" expanded="true" />
-                <marker date="1553842698234" expanded="true" signature="258:263" ph="..." />
-                <marker date="1553842698234" expanded="true" signature="525:530" ph="..." />
-                <marker date="1553842698234" expanded="true" signature="561:754" ph="..." />
-                <marker date="1553842698234" expanded="true" signature="782:969" ph="..." />
-                <marker date="1553842698234" expanded="true" signature="996:1181" ph="..." />
-              </folding>
+            <state relative-caret-position="266">
+              <caret line="24" column="47" lean-forward="true" selection-start-line="24" selection-start-column="47" selection-end-line="24" selection-end-column="47" />
             </state>
           </provider>
         </entry>
@@ -267,18 +263,22 @@
         <option value="$PROJECT_DIR$/htsctest.py" />
         <option value="$PROJECT_DIR$/zlqqt.py" />
         <option value="$PROJECT_DIR$/zlqqtLoginView.py" />
-        <option value="$PROJECT_DIR$/runlog.log" />
         <option value="$PROJECT_DIR$/myunit.py" />
         <option value="$PROJECT_DIR$/test_case.py" />
-        <option value="$PROJECT_DIR$/ZlqqtBaseView.py" />
-        <option value="$PROJECT_DIR$/zlqqt_desired_caps.py" />
         <option value="$PROJECT_DIR$/test_case/test_case.py" />
         <option value="$PROJECT_DIR$/BSTestRunner.py" />
-        <option value="$PROJECT_DIR$/run.py" />
         <option value="$PROJECT_DIR$/buttonTabView.py" />
-        <option value="$PROJECT_DIR$/test_case/click_bottom_tab.py" />
-        <option value="$PROJECT_DIR$/zlqqt_common.py" />
         <option value="$PROJECT_DIR$/zlqqtSetServer.py" />
+        <option value="$PROJECT_DIR$/ZlqqtBaseView.py" />
+        <option value="$PROJECT_DIR$/zlqqt_desired_caps.py" />
+        <option value="$PROJECT_DIR$/zlqqt_common.py" />
+        <option value="$PROJECT_DIR$/MarketMainPage.py" />
+        <option value="$PROJECT_DIR$/test_case/click_bottom_tab.py" />
+        <option value="$PROJECT_DIR$/test_case/test_hang_heng_index_skip.py" />
+        <option value="$PROJECT_DIR$/MarketMainPageView.py" />
+        <option value="$PROJECT_DIR$/test_case/test_click_bottom_tab.py" />
+        <option value="$PROJECT_DIR$/run.py" />
+        <option value="$PROJECT_DIR$/runlog.log" />
       </list>
     </option>
   </component>
@@ -288,11 +288,11 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1358" />
-    <option name="y" value="-8" />
-    <option name="width" value="1616" />
-    <option name="height" value="876" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="1566" />
+    <option name="y" value="38" />
+    <option name="width" value="1364" />
+    <option name="height" value="728" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -393,28 +393,6 @@
     </option>
   </component>
   <component name="RunManager" selected="Python.run">
-    <configuration name="buttonTabView" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="pythonnotes" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/buttonTabView.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="htsctest" type="PythonConfigurationType" factoryName="Python">
       <module name="pythonnotes" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -481,22 +459,37 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_case.click_bottom_tab.TestCase" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_click_bottom_tab.TestCase.test_click_bottom_tab" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="pythonnotes" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_case" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_case.click_bottom_tab.TestCase&quot;" />
+      <option name="_new_target" value="&quot;test_click_bottom_tab.TestCase.test_click_bottom_tab&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests in click_bottom_tab.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_hang_heng_index_skip.TestCase.test_hang_heng_index_skip" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="pythonnotes" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_case" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_hang_heng_index_skip.TestCase.test_hang_heng_index_skip&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests in test_click_bottom_tab.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="pythonnotes" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -507,25 +500,25 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/test_case/click_bottom_tab.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test_case/test_click_bottom_tab.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <list>
       <item itemvalue="Python.htsctest" />
       <item itemvalue="Python.zlqqt_common" />
-      <item itemvalue="Python.buttonTabView" />
-      <item itemvalue="Python tests.Unittests in click_bottom_tab.py" />
-      <item itemvalue="Python tests.Unittests for test_case.click_bottom_tab.TestCase" />
+      <item itemvalue="Python tests.Unittests in test_click_bottom_tab.py" />
       <item itemvalue="Python.run" />
+      <item itemvalue="Python tests.Unittests for test_hang_heng_index_skip.TestCase.test_hang_heng_index_skip" />
+      <item itemvalue="Python tests.Unittests for test_click_bottom_tab.TestCase.test_click_bottom_tab" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.run" />
+        <item itemvalue="Python tests.Unittests for test_click_bottom_tab.TestCase.test_click_bottom_tab" />
+        <item itemvalue="Python tests.Unittests in test_click_bottom_tab.py" />
+        <item itemvalue="Python tests.Unittests for test_hang_heng_index_skip.TestCase.test_hang_heng_index_skip" />
         <item itemvalue="Python.zlqqt_common" />
-        <item itemvalue="Python tests.Unittests for test_case.click_bottom_tab.TestCase" />
-        <item itemvalue="Python tests.Unittests in click_bottom_tab.py" />
-        <item itemvalue="Python.buttonTabView" />
       </list>
     </recent_temporary>
   </component>
@@ -557,6 +550,18 @@
     <history-entry file="Unittests_for_test_case_TestCase_test_click_bottom_tab_trade - 2019.03.28 at 16h 29m 29s.xml">
       <configuration name="Unittests for test_case.TestCase.test_click_bottom_tab_trade" configurationId="tests" />
     </history-entry>
+    <history-entry file="Unittests_for_test_hang_heng_index_skip_TestCase_test_hang_heng_index_skip - 2019.04.01 at 17h 35m 41s.xml">
+      <configuration name="Unittests for test_hang_heng_index_skip.TestCase.test_hang_heng_index_skip" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_click_bottom_tab_py - 2019.04.01 at 17h 39m 03s.xml">
+      <configuration name="Unittests in test_click_bottom_tab.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_click_bottom_tab_TestCase_test_click_bottom_tab - 2019.04.01 at 17h 39m 24s.xml">
+      <configuration name="Unittests for test_click_bottom_tab.TestCase.test_click_bottom_tab" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_click_bottom_tab_TestCase_test_click_bottom_tab - 2019.04.01 at 17h 39m 38s.xml">
+      <configuration name="Unittests for test_click_bottom_tab.TestCase.test_click_bottom_tab" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -571,11 +576,11 @@
     <frame x="1358" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1651671" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21208227" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32928476" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4993573" visible="true" weight="0.39811066" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -618,38 +623,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/runlog.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="40" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/config.yaml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="380">
           <caret line="20" column="24" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2018.2/system/python_stubs/1473479182/builtins.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="719" column="6" selection-start-line="719" selection-start-column="6" selection-end-line="719" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/log.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="35" lean-forward="true" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/desired_caps.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="10" lean-forward="true" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
         </state>
       </provider>
     </entry>
@@ -660,84 +637,62 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/reports/2019-03-29 14_53_20test_report.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/htsctest.py">
+    <entry file="file://$PROJECT_DIR$/reports/2019-03-29 14_53_20test_report.html" />
+    <entry file="file://$USER_HOME$/.PyCharm2018.2/system/python_stubs/1473479182/builtins.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="24" column="47" lean-forward="true" selection-start-line="24" selection-start-column="47" selection-end-line="24" selection-end-column="47" />
+        <state relative-caret-position="-302">
+          <caret line="719" column="6" selection-start-line="719" selection-start-column="6" selection-end-line="719" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ApkBase.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="51" column="16" selection-start-line="51" selection-start-column="16" selection-end-line="51" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/zlqqt_desired_caps.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3">
-          <caret line="19" column="55" lean-forward="true" selection-start-line="19" selection-start-column="55" selection-end-line="19" selection-end-column="55" />
+        <state relative-caret-position="627">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
           <folding>
-            <element signature="e#14#42#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ZlqqtBaseView.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <marker date="1553825801135" expanded="true" signature="53:58" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zlqqt_common.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="94">
-          <caret line="118" column="22" lean-forward="true" selection-start-line="118" selection-start-column="22" selection-end-line="118" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#22#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BSTestRunner.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="123" column="36" lean-forward="true" selection-start-line="123" selection-start-column="36" selection-end-line="123" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_case/click_bottom_tab.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <element signature="e#15#30#0" expanded="true" />
-            <marker date="1553843092974" expanded="true" signature="198:203" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/run.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="23" column="24" lean-forward="true" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
-          <folding>
-            <element signature="e#31#45#0" expanded="true" />
+            <element signature="e#15#43#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/h5.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-136">
-          <caret line="13" column="25" lean-forward="true" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
+        <state relative-caret-position="228">
+          <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/desired_caps.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="10" lean-forward="true" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/log.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="35" lean-forward="true" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BSTestRunner.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2337">
+          <caret line="123" column="36" lean-forward="true" selection-start-line="123" selection-start-column="36" selection-end-line="123" selection-end-column="36" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/buttonTabView.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
+        <state relative-caret-position="7">
           <caret line="15" selection-start-line="15" selection-end-line="15" />
           <folding>
             <element signature="e#15#37#0" expanded="true" />
@@ -750,19 +705,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ApkBase.py">
+    <entry file="file://$PROJECT_DIR$/htsctest.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="909">
-          <caret line="51" column="16" lean-forward="true" selection-start-line="51" selection-start-column="16" selection-end-line="51" selection-end-column="16" />
-          <folding>
-            <element signature="e#40#49#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="266">
+          <caret line="24" column="47" lean-forward="true" selection-start-line="24" selection-start-column="47" selection-end-line="24" selection-end-column="47" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/myunit.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="111">
+        <state relative-caret-position="114">
           <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
@@ -770,12 +722,78 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/zlqqtSetServer.py">
+    <entry file="file://$PROJECT_DIR$/zlqqt_common.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2565">
-          <caret line="186" column="24" selection-start-line="186" selection-start-column="24" selection-end-line="186" selection-end-column="24" />
+        <state relative-caret-position="225">
+          <caret line="113" column="49" lean-forward="true" selection-start-line="112" selection-start-column="8" selection-end-line="113" selection-end-column="49" />
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
+          </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ZlqqtBaseView.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="1" />
+          <folding>
+            <marker date="1553852756093" expanded="true" signature="53:58" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zlqqtSetServer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="48" column="51" selection-start-line="48" selection-start-column="44" selection-end-line="48" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MarketMainPageView.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-361">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="e#15#70#0" expanded="true" />
+            <marker date="1554112591609" expanded="true" signature="313:318" ph="..." />
+            <marker date="1554112591609" expanded="true" signature="1327:1609" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_case/test_hang_heng_index_skip.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="e#15#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_case/test_click_bottom_tab.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="e#15#30#0" expanded="true" />
+            <marker date="1554113029677" expanded="true" signature="244:249" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/run.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="13" column="73" selection-start-line="13" selection-start-column="73" selection-end-line="13" selection-end-column="73" />
+          <folding>
+            <element signature="e#31#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/runlog.log">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>

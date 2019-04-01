@@ -37,7 +37,6 @@ class Common(ZlqqtBaseView):
         点击确认按钮进入app
         :return:
         """
-        logging.info('点击确定按钮...')
         try:
             element = self.driver.find_element(*self.confirmBtn)
         except NoSuchElementException:
