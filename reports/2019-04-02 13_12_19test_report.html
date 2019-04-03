@@ -150,9 +150,9 @@ function showOutput(id, name) {
 <div class="container">
     <div class='heading'>
 <h1>ZLQQT Test Report</h1>
-<p><strong>Start Time:</strong> 2019-04-01 18:04:04</p>
-<p><strong>Duration:</strong> 0:00:44.324801</p>
-<p><strong>Status:</strong> <span class="text text-success">Pass <strong>1</strong></span> <span class="text text-warning">Error <strong>1</strong></span></p>
+<p><strong>Start Time:</strong> 2019-04-02 13:12:19</p>
+<p><strong>Duration:</strong> 0:00:48.664831</p>
+<p><strong>Status:</strong> <span class="text text-success">Pass <strong>2</strong></span></p>
 
 <p class='description'>zlqqt Android app Test Report</p>
 </div>
@@ -179,11 +179,11 @@ function showOutput(id, name) {
         
 <tr class='text text-success'>
     <td>test_click_bottom_tab.TestCase</td>
-    <td>1</td>
-    <td>1</td>
+    <td>2</td>
+    <td>2</td>
     <td>0</td>
     <td>0</td>
-    <td><a class="btn btn-xs btn-primary"href="javascript:showClassDetail('c1',1)">Detail</a></td>
+    <td><a class="btn btn-xs btn-primary"href="javascript:showClassDetail('c1',2)">Detail</a></td>
 </tr>
 
 <tr id='pt1.1' class='hiddenRow'>
@@ -191,54 +191,9 @@ function showOutput(id, name) {
     <td colspan='5' align='center'>pass</td>
 </tr>
 
-<tr class='text text-warning'>
-    <td>test_hang_heng_index_skip.TestCase</td>
-    <td>1</td>
-    <td>0</td>
-    <td>0</td>
-    <td>1</td>
-    <td><a class="btn btn-xs btn-primary"href="javascript:showClassDetail('c2',1)">Detail</a></td>
-</tr>
-
-<tr id='ft2.1' class='text text-success'>
-    <td class='text text-warning'><div class='testcase'>test_hang_heng_index_skip</div></td>
-    <td colspan='5' align='center'>
-
-    <!--css div popup start-->
-    <a class="popup_link btn btn-xs btn-default" onfocus='this.blur();' href="javascript:showTestDetail('div_ft2.1')" >
-        error</a>
-
-    <div id='div_ft2.1' class="popup_window">
-        <div style='text-align: right;cursor:pointer'>
-        <a onfocus='this.blur();' onclick="document.getElementById('div_ft2.1').style.display = 'none' " >
-           [x]</a>
-        </div>
-        <pre>
-        
-ft2.1: Traceback (most recent call last):
-  File "D:\testfiles\zlqqt_appium\myunit.py", line 11, in setUp
-    self.driver = zlqqt_desired()
-  File "D:\testfiles\zlqqt_appium\zlqqt_desired_caps.py", line 29, in zlqqt_desired
-    driver = webdriver.Remote('http://' + str(data['ip']) + ':' + str(data['port']) + '/wd/hub', desired_caps)
-  File "C:\Users\michael\AppData\Local\Programs\Python\Python36\lib\site-packages\appium\webdriver\webdriver.py", line 129, in __init__
-    proxy
-  File "C:\Users\michael\AppData\Local\Programs\Python\Python36\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 157, in __init__
-    self.start_session(capabilities, browser_profile)
-  File "C:\Users\michael\AppData\Local\Programs\Python\Python36\lib\site-packages\appium\webdriver\webdriver.py", line 204, in start_session
-    response = self.execute(RemoteCommand.NEW_SESSION, parameters)
-  File "C:\Users\michael\AppData\Local\Programs\Python\Python36\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
-    self.error_handler.check_response(response)
-  File "C:\Users\michael\AppData\Local\Programs\Python\Python36\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
-    raise exception_class(message, screen, stacktrace)
-selenium.common.exceptions.SessionNotCreatedException: Message: A new session could not be created. (Original error: Requested a new session but one was in progress)
-
-
-
-        </pre>
-    </div>
-    <!--css div popup end-->
-
-    </td>
+<tr id='pt1.2' class='hiddenRow'>
+    <td class='text text-success'><div class='testcase'>test_hang_heng_index_skip</div></td>
+    <td colspan='5' align='center'>pass</td>
 </tr>
 
     </tbody>
@@ -246,9 +201,9 @@ selenium.common.exceptions.SessionNotCreatedException: Message: A new session co
         <tr id='total_row'>
             <td>Total</td>
             <td>2</td>
-            <td class="text text-success">1</td>
+            <td class="text text-success">2</td>
             <td class="text text-danger">0</td>
-            <td class="text text-warning">1</td>
+            <td class="text text-warning">0</td>
             <td>&nbsp;</td>
         </tr>
     </tfoot>

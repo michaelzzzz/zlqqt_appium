@@ -1,12 +1,15 @@
+# coding:utf-8
+__author__ = "James"
+
 from time import sleep
 
 from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
 
-from ZlqqtBaseView import ZlqqtBaseView
-from zlqqt_desired_caps import logging
-from zlqqt_desired_caps import zlqqt_desired
+from src.common.ZlqqtBaseView import ZlqqtBaseView
+from src.common.zlqqt_desired_caps import logging
+from src.common.zlqqt_desired_caps import zlqqt_desired
 
 
 class Common(ZlqqtBaseView):

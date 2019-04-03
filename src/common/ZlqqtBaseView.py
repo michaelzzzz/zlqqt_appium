@@ -1,3 +1,7 @@
+# coding:utf-8
+__author__ = "James"
+
+
 class ZlqqtBaseView(object):
     """
     基类封装

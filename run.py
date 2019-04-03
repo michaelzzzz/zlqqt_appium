@@ -5,13 +5,13 @@ import time
 import unittest
 
 
-from BSTestRunner import BSTestRunner
+from src.common.BSTestRunner import BSTestRunner
 
-test_dir = './test_case'
+test_dir = './src/test_case'
 report_dir = './reports'
 
 #加载测试用例
-discover = unittest.defaultTestLoader.discover(test_dir, pattern = 'test*.py')
+discover = unittest.defaultTestLoader.discover(test_dir, pattern='test_click_bottom_tab.py')
 
 #定义报告的文件格式
 now = time.strftime("%Y-%m-%d %H_%M_%S", time.localtime(time.time()))

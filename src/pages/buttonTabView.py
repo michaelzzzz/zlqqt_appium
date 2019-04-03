@@ -1,14 +1,14 @@
-# coding=utf-8
-from time import sleep
+# coding:utf-8
+__author__ = "James"
 
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
 
-from zlqqt_common import Common
-from zlqqt_desired_caps import logging, zlqqt_desired
+from src.common.zlqqt_common import Common
+from src.common.zlqqt_desired_caps import logging, zlqqt_desired
 
 
-class buttonTabView(Common):
+class ButtonTabView(Common):
     main_indexpage = (By.ID, 'com.lphtsccft.zlqqt2:id/main_indexpage')
     main_market = (By.ID, 'com.lphtsccft.zlqqt2:id/main_market')
     main_trade = (By.ID, 'com.lphtsccft.zlqqt2:id/main_trade')
@@ -36,7 +36,7 @@ class buttonTabView(Common):
 
 if __name__ == '__main__':
     driver = zlqqt_desired()
-    bt = buttonTabView(driver)
+    bt = ButtonTabView(driver)
     bt.common_openation()
     bt.click_main_indexpage()
     bt.click_main_account()

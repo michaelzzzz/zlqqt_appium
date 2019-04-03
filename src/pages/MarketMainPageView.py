@@ -1,10 +1,12 @@
-# coding=utf-8
+# coding:utf-8
+__author__ = "James"
+
 from selenium.common.exceptions import TimeoutException
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
 
-from zlqqt_common import Common
-from zlqqt_desired_caps import logging
+from src.common.zlqqt_common import Common
+from src.common.zlqqt_desired_caps import logging
 
 
 class MartetMainPage(Common):
@@ -31,7 +33,7 @@ class MartetMainPage(Common):
         :return:
         """
         logging.info('点击恒生指数...')
-        WebDriverWait(self.driver, 5).until(lambda x: x.find_element(*self.hang_seng_index))
+        WebDriverWait(self.driver, 20).until(lambda x: x.find_element(*self.hang_seng_index))
         self.driver.find_element(*self.hang_seng_index).click()
         l = self.get_size()
         self.touch_tap(l[0] * 0.5, l[1] * 0.2578)
@@ -42,7 +44,7 @@ class MartetMainPage(Common):
         :return:
         """
         try:
-            WebDriverWait(self.driver, 5).until(lambda x: x.find_element(*self.hang_seng_index_page))
+            WebDriverWait(self.driver, 10).until(lambda x: x.find_element(*self.hang_seng_index_page))
         except TimeoutException:
             logging.info('超过5秒未找到恒生指数页面中间title')
         else:

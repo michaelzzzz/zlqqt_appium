@@ -1,4 +1,6 @@
-# coding=utf-8
+# coding:utf-8
+__author__ = "James"
+
 from appium import webdriver
 import yaml
 import logging

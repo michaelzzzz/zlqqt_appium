@@ -1,11 +1,11 @@
-# coding=utf-8
-from time import sleep
+# coding:utf-8
+__author__ = "James"
 
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
 
-from zlqqt_common import Common
-from zlqqt_desired_caps import logging, zlqqt_desired
+from src.common.zlqqt_common import Common
+from src.common.zlqqt_desired_caps import logging, zlqqt_desired
 
 
 class zlqqtSetServer(Common):
