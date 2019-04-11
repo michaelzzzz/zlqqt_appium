@@ -5,7 +5,7 @@ import time
 import unittest
 
 
-from src.common.BSTestRunner import BSTestRunner
+from src.common.bs_test_runner import BSTestRunner
 
 test_dir = './src/test_case'
 report_dir = './reports'

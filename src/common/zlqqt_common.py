@@ -1,5 +1,5 @@
 # coding:utf-8
-__author__ = "James"
+__author__ = "michael"
 
 from time import sleep
 
@@ -7,7 +7,7 @@ from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
 
-from src.common.ZlqqtBaseView import ZlqqtBaseView
+from src.common.zlqqt_base_view import ZlqqtBaseView
 from src.common.zlqqt_desired_caps import logging
 from src.common.zlqqt_desired_caps import zlqqt_desired
 

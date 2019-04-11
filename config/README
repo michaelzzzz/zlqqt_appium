@@ -1,0 +1,25 @@
+#log.conf由loggers、handlers、formaters组成
+#keys对应实例化是他们的名称，使用逗号隔开
+#propagate=0表示输出日志，但消息不传递，=1是输出日志，同时向更高级别的地方传递
+|zlqqt_appium
+|-----config
+|----------desired_caps.ymal                    #配置信息
+|----------log.conf                             #log配置文件
+|-----logs
+|----------runlog.log                           #记录logs
+|-----reports
+|----------2019-04-11 15_24_34test_report.html  #测试报告
+|-----src
+|----------common
+|---------------appiumlog
+|---------------bs_test_runner.py                 #测试报告模板
+|---------------myunit.py                       #测试套
+|---------------zlqqt_common.py                 #基本方法
+|---------------zlqqt_desired_caps.py           #启动信息配置
+|---------------zlqqt_base_view.py                #父类封装
+|---------------zlqqt_set_server.py               #测试地址设置
+|----------pages
+|---------------button_tab_view.py                #底部按钮封装
+|---------------market_main_page_view.py           #市场主页面封装
+|----------test_case                            #测试用例
+|-----run.py                                    #启动脚本

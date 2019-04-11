@@ -3,7 +3,7 @@ import multiprocessing
 import subprocess
 from time import ctime
 
-__author__ = "James"
+__author__ = "michael"
 
 from appium import webdriver
 import yaml
@@ -40,6 +40,8 @@ def zlqqt_desired():
 
 if __name__ == '__main__':
     zlqqt_desired()
+
+
 # with open('./config/desired_caps.yaml', 'r') as file:
 #     data = yaml.load(file)
 #

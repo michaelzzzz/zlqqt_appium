@@ -1,5 +1,5 @@
 # coding:utf-8
-__author__ = "James"
+__author__ = "michael"
 
 from selenium.common.exceptions import TimeoutException
 from selenium.webdriver.common.by import By

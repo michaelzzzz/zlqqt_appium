@@ -1,8 +1,9 @@
 # coding=utf-8
+__author__ = "michael"
 import unittest
 
-from src.pages.MarketMainPageView import MartetMainPage
-from src.pages.buttonTabView import ButtonTabView
+from src.pages.market_main_page_view import MartetMainPage
+from src.pages.button_tab_view import ButtonTabView
 from src.common.myunit import StartEnd
 from src.common.zlqqt_desired_caps import logging
 
