@@ -3,18 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="3b16a609-d0f6-4b44-a423-d102ae0535ca" name="Default Changelist" comment="add htsctest">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/runlog.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/runlog.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run.py" beforeDir="false" afterPath="$PROJECT_DIR$/run.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/common/BSTestRunner.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/bs_test_runner.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/common/ZlqqtBaseView.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/zlqqt_base_view.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/common/myunit.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/myunit.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/common/zlqqtSetServer.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/zlqqt_set_server.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/common/zlqqt_common.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/zlqqt_common.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/common/zlqqt_desired_caps.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/zlqqt_desired_caps.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/MarketMainPageView.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/market_main_page_view.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/buttonTabView.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/button_tab_view.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test_case/test_click_bottom_tab.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/test_case/test_click_bottom_tab.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test_case/test_hang_heng_index_skip.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/test_case/test_hang_heng_index_skip.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -81,20 +69,21 @@
     <session id="1636720518">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="7" />
+          <entry key="project.closed" value="8" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.18" value="1" />
           <entry key="project.open.time.26" value="1" />
           <entry key="project.open.time.28" value="2" />
+          <entry key="project.open.time.29" value="1" />
           <entry key="project.open.time.30" value="1" />
           <entry key="project.open.time.46" value="2" />
-          <entry key="project.opened" value="9" />
+          <entry key="project.opened" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="README" value="952" />
+          <entry key="README" value="961" />
           <entry key="REMARK" value="1" />
           <entry key="conf" value="151" />
           <entry key="dummy" value="169" />
@@ -105,18 +94,19 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="1276" />
+          <entry key="PLAIN_TEXT" value="1285" />
           <entry key="Python" value="8946" />
           <entry key="YAML" value="178" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="README" value="1" />
           <entry key="REMARK" value="1" />
           <entry key="conf" value="9" />
           <entry key="html" value="1" />
           <entry key="log" value="18" />
-          <entry key="py" value="109" />
+          <entry key="py" value="112" />
           <entry key="yaml" value="11" />
         </counts>
       </usages-collector>
@@ -124,8 +114,8 @@
         <counts>
           <entry key="HTML" value="1" />
           <entry key="Log" value="8" />
-          <entry key="PLAIN_TEXT" value="20" />
-          <entry key="Python" value="109" />
+          <entry key="PLAIN_TEXT" value="21" />
+          <entry key="Python" value="112" />
           <entry key="YAML" value="11" />
         </counts>
       </usages-collector>
@@ -133,11 +123,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/common/zlqqt_desired_caps.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="8" column="11" lean-forward="true" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+              <folding>
+                <element signature="e#15#37#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/common/zlqqt_set_server.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
+            <state relative-caret-position="2242">
+              <caret line="122" selection-start-line="122" selection-end-line="123" />
               <folding>
                 <element signature="e#39#82#0" expanded="true" />
               </folding>
@@ -155,25 +157,28 @@
           <provider selected="true" editor-type-id="LogFileEditorProvider" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/common/appium_log/4723.log">
           <provider selected="true" editor-type-id="LogFileEditorProvider" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/logs/runlog.log">
-          <provider selected="true" editor-type-id="LogFileEditorProvider">
-            <state relative-caret-position="215">
-              <caret line="80" selection-start-line="80" selection-end-line="81" />
+        <entry file="file://$PROJECT_DIR$/config/README">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="9" selection-start-column="9" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/log.conf">
+        <entry file="file://$PROJECT_DIR$/src/common/zlqqt_common.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="9" selection-end-column="19" />
+            <state relative-caret-position="1748">
+              <caret line="100" column="26" selection-start-line="100" selection-start-column="8" selection-end-line="100" selection-end-column="26" />
+              <folding>
+                <element signature="e#39#61#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -190,7 +195,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/common/myunit.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
+            <state relative-caret-position="798">
               <caret line="45" column="18" selection-start-line="45" selection-start-column="18" selection-end-line="45" selection-end-column="18" />
               <folding>
                 <marker date="1554962875771" expanded="true" signature="200:267" ph="..." />
@@ -200,25 +205,12 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/run.py">
+        <entry file="file://$PROJECT_DIR$/src/pages/market_main_page_view.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="13" column="87" selection-start-line="13" selection-start-column="66" selection-end-line="13" selection-end-column="87" />
+            <state relative-caret-position="665">
+              <caret line="40" column="8" selection-start-line="40" selection-start-column="8" selection-end-line="40" selection-end-column="8" />
               <folding>
-                <element signature="e#31#45#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test_case/test_click_bottom_tab.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="20" column="17" lean-forward="true" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
-              <folding>
-                <element signature="e#39#54#0" expanded="true" />
-                <marker date="1554971851070" expanded="true" signature="283:288" ph="..." />
+                <marker date="1554962875642" expanded="true" signature="359:364" ph="..." />
               </folding>
             </state>
           </provider>
@@ -293,11 +285,11 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1358" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1616" />
-    <option name="height" value="876" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -337,46 +329,6 @@
               <item name="zlqqt_appium" type="b2602c69:ProjectViewProjectNode" />
               <item name="zlqqt_appium" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="zlqqt_appium" type="b2602c69:ProjectViewProjectNode" />
-              <item name="zlqqt_appium" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="zlqqt_appium" type="b2602c69:ProjectViewProjectNode" />
-              <item name="zlqqt_appium" type="462c0819:PsiDirectoryNode" />
-              <item name="logs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="zlqqt_appium" type="b2602c69:ProjectViewProjectNode" />
-              <item name="zlqqt_appium" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="zlqqt_appium" type="b2602c69:ProjectViewProjectNode" />
-              <item name="zlqqt_appium" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="zlqqt_appium" type="b2602c69:ProjectViewProjectNode" />
-              <item name="zlqqt_appium" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="appium_log" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="zlqqt_appium" type="b2602c69:ProjectViewProjectNode" />
-              <item name="zlqqt_appium" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="zlqqt_appium" type="b2602c69:ProjectViewProjectNode" />
-              <item name="zlqqt_appium" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test_case" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -386,7 +338,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../appium-master" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="Errors" />
@@ -608,15 +560,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1358" y="-8" width="1616" height="876" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.32197943" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16944024" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32928476" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4993573" visible="true" weight="0.39271256" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4993573" weight="0.39271256" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.35357624" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -689,13 +641,6 @@
     <entry file="file://$PROJECT_DIR$/ApkBase.py" />
     <entry file="file://$PROJECT_DIR$/h5.py" />
     <entry file="file://$PROJECT_DIR$/htsctest.py" />
-    <entry file="file://$PROJECT_DIR$/config/README">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="51" lean-forward="true" selection-start-line="15" selection-start-column="51" selection-end-line="15" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/common/bs_test_runner.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="589">
@@ -707,29 +652,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
           <caret line="11" column="20" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="20" />
-          <folding>
-            <marker date="1554962875737" expanded="true" signature="93:98" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/common/zlqqt_common.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="143" lean-forward="true" selection-start-line="143" selection-end-line="143" />
-          <folding>
-            <element signature="e#39#61#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/common/zlqqt_desired_caps.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="30" column="25" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
-          <folding>
-            <element signature="e#15#37#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -744,24 +666,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-304">
           <caret line="11" selection-start-line="11" selection-end-line="14" selection-end-column="66" />
-          <folding>
-            <element signature="e#39#82#0" expanded="true" />
-            <marker date="1554962875609" expanded="true" signature="280:285" ph="..." />
-            <marker date="1554962875609" expanded="true" signature="547:552" ph="..." />
-            <marker date="1554962875609" expanded="true" signature="583:776" ph="..." />
-            <marker date="1554962875609" expanded="true" signature="804:991" ph="..." />
-            <marker date="1554962875609" expanded="true" signature="1018:1203" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/market_main_page_view.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="40" column="8" selection-start-line="40" selection-start-column="8" selection-end-line="40" selection-end-column="8" />
-          <folding>
-            <marker date="1554962875642" expanded="true" signature="359:364" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -776,10 +680,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="380">
           <caret line="20" column="17" lean-forward="true" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
-          <folding>
-            <element signature="e#39#54#0" expanded="true" />
-            <marker date="1554971851070" expanded="true" signature="283:288" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -787,19 +687,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
           <caret line="13" column="87" selection-start-line="13" selection-start-column="66" selection-end-line="13" selection-end-column="87" />
-          <folding>
-            <element signature="e#31#45#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/common/zlqqt_set_server.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
-          <folding>
-            <element signature="e#39#82#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -818,19 +705,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/desired_caps.yaml">
+    <entry file="file://$PROJECT_DIR$/src/common/zlqqt_desired_caps.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="10" lean-forward="true" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
+        <state relative-caret-position="152">
+          <caret line="8" column="11" lean-forward="true" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+          <folding>
+            <element signature="e#15#37#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/common/myunit.py">
+    <entry file="file://$PROJECT_DIR$/src/common/zlqqt_set_server.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="45" column="18" selection-start-line="45" selection-start-column="18" selection-end-line="45" selection-end-column="18" />
+        <state relative-caret-position="2242">
+          <caret line="122" selection-start-line="122" selection-end-line="123" />
           <folding>
-            <marker date="1554962875771" expanded="true" signature="200:267" ph="..." />
+            <element signature="e#39#82#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -848,6 +738,50 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/common/appium_log/4723.log">
       <provider selected="true" editor-type-id="LogFileEditorProvider" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/README">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="9" selection-start-column="9" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/common/zlqqt_common.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1748">
+          <caret line="100" column="26" selection-start-line="100" selection-start-column="8" selection-end-line="100" selection-end-column="26" />
+          <folding>
+            <element signature="e#39#61#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/desired_caps.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="10" lean-forward="true" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/common/myunit.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="798">
+          <caret line="45" column="18" selection-start-line="45" selection-start-column="18" selection-end-line="45" selection-end-column="18" />
+          <folding>
+            <marker date="1554962875771" expanded="true" signature="200:267" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/market_main_page_view.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="665">
+          <caret line="40" column="8" selection-start-line="40" selection-start-column="8" selection-end-line="40" selection-end-column="8" />
+          <folding>
+            <marker date="1554962875642" expanded="true" signature="359:364" ph="..." />
+          </folding>
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
